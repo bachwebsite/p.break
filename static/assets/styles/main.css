@@ -4,7 +4,7 @@
 body {
   font-family: 'Inter', sans-serif;
   text-decoration: none;
-  background: var(--page);
+  background-image: url(https://breakium.vercel.app/bggg.png);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
