@@ -6,10 +6,6 @@ body {
   text-decoration: none;
   background-image: url(https://breakium.vercel.app/bggg.png);
   height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 ::-webkit-scrollbar {
@@ -88,6 +84,19 @@ body {
   margin-right: 1vw;
   margin-left: 1vw;
   font-family: 'Poppins', sans-serif;
+}
+
+@keyframes moveUp {
+    from {
+      background-position: 0 0; /* Initial background position */
+    }
+    to {
+      background-position: 0 -20000vh; /* Move background up by the height of the container */
+    }
+  }
+  
+body {
+  animation: moveUp 9999s linear infinite; /* Adjust the duration and timing function as needed */
 }
 
 .featured {
