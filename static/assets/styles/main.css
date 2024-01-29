@@ -340,7 +340,7 @@ img {
 input {
   padding: 20px;
   width: 550px;
-  border-radius: 5px;
+  border-radius: 200px;
   background: var(--column);
   text-align: center;
   font-size: 24px;
